@@ -1,0 +1,13 @@
+alias at='alacritty-themes'
+
+# git alias'
+alias gs='git status'
+alias ga='git add .'
+alias gcm='git commit -m'
+alias gp='git push -u origin head'
+
+# shortcuts
+alias home='cd ~'
+alias code='cd ~/workspace'
+alias config='cd ~/.config'
+
