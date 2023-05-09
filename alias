@@ -4,7 +4,7 @@ alias at='alacritty-themes'
 alias gs='git status'
 alias ga='git add .'
 alias gcm='git commit -m'
-alias gp='git push -u origin head'
+alias gp='git push -u origin'
 
 # shortcuts
 alias home='cd ~'
