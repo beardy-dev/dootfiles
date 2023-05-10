@@ -9,7 +9,8 @@ lsp.ensure_installed({
 	'html', 
 	'rust_analyzer',
 	'tailwindcss',
-	'lua_ls'
+	'lua_ls',
+	'vimls'
 })
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
