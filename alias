@@ -12,3 +12,6 @@ alias code='cd ~/workspace'
 alias config='cd ~/.config'
 
 alias ls='ls -FA --color --group-directories-first'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
