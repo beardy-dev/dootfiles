@@ -7,11 +7,14 @@ alias gcm='git commit -m'
 alias gp='git push -u origin'
 
 # shortcuts
-alias home='cd ~'
-alias code='cd ~/workspace'
-alias config='cd ~/.config'
+alias home='cd $HOME/'
+alias code='cd $HOME/workspace'
+alias config='cd $HOME/.config'
 
-alias ls='ls -FA --color --group-directories-first'
-alias ll='ls -alF'
+alias ls='ls -1FA --color --group-directories-first'
+alias ll='ls -a1F'
 alias la='ls -A'
 alias l='ls -CF'
+
+alias profile='source .profile'
+alias newAlias='nano $HOME/dootfiles/alias'
