@@ -8,13 +8,10 @@ alias gp='git push -u origin'
 
 # shortcuts
 alias home='cd $HOME/'
-alias code='cd $HOME/workspace'
+alias codez='cd $HOME/workspace'
 alias config='cd $HOME/.config'
 
-alias ls='ls -1FA --color --group-directories-first'
-alias ll='ls -a1F'
-alias la='ls -A'
-alias l='ls -CF'
+alias ls='ls -a1F --color --group-directories-first'
 
 alias profile='source .profile'
 alias newAlias='nano $HOME/dootfiles/alias'
